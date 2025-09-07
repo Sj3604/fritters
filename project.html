@@ -4,26 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Favourite Food: Potato Fritters</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>🥔 Potato Fritters - My Favourite Food 🥔</h1>
-    <p class="subtitle">A homemade delight that's absolutely irresistible!</p>
+<body class="bg-gray-100 font-poppins">
+  <header class="bg-green-500 text-white text-center py-6">
+    <h1 class="text-4xl font-bold">🥔 Potato Fritters - My Favourite Food 🥔</h1>
+    <p class="subtitle text-lg mt-2">A homemade delight that's absolutely irresistible!</p>
   </header>
 
-  <main>
-    <section>
-      <h2>✨ Why I Love Potato Fritters</h2>
-      <p>It's a homemade potato dish that’s both crispy and delicious.</p>
+  <main class="max-w-4xl mx-auto p-6">
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-green-600">✨ Why I Love Potato Fritters</h2>
+      <p class="mt-2">It's a homemade potato dish that’s both crispy and delicious.</p>
       <p>With its unique taste and aroma, it's my all-time favorite snack!</p>
       <p>I enjoy them fresh and hot, just the way they’re meant to be!</p>
     </section>
 
-    <section>
-      <h2>🧂 Recipe Ingredients</h2>
-      <ul>
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-green-600">🧂 Recipe Ingredients</h2>
+      <ul class="list-disc list-inside mt-2">
         <li>🥔 Potatoes</li>
         <li>🧂 Salt</li>
         <li>🌶️ Chilly</li>
@@ -32,9 +31,9 @@
       </ul>
     </section>
 
-    <section>
-      <h2>👨‍🍳 Steps to Make Potato Fritters</h2>
-      <ol>
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-green-600">👨‍🍳 Steps to Make Potato Fritters</h2>
+      <ol class="list-decimal list-inside mt-2">
         <li>Peel and slice the potatoes 🥔</li>
         <li>Mix all the ingredients together 🥣</li>
         <li>Heat oil in a pan 🍳</li>
@@ -42,28 +41,30 @@
         <li>Fry until golden and crispy 🔥</li>
         <li>Serve hot and enjoy 😋</li>
       </ol>
-      <p class="highlight">🎉 Your delicious fritters are ready to eat!</p>
+      <p class="highlight text-green-600 font-bold mt-4">🎉 Your delicious fritters are ready to eat!</p>
     </section>
 
-    <section class="images">
-      <h2>📷 Fritter Photos</h2>
-      <img src="https://chakriskitchen.com/wp-content/uploads/2020/08/Onion_Pakodi_Feature-768x776.jpg" alt="A plate of potato fritters">
-      <img src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/surya-lakshmi20181125205604296.jpeg" alt="Another view of fritters">
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-green-600">📷 Fritter Photos</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+        <img class="rounded-lg shadow-lg" src="https://chakriskitchen.com/wp-content/uploads/2020/08/Onion_Pakodi_Feature-768x776.jpg" alt="A plate of potato fritters">
+        <img class="rounded-lg shadow-lg" src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/surya-lakshmi20181125205604296.jpeg" alt="Another view of fritters">
+      </div>
     </section>
 
     <section>
-      <h2>🍽️ Top 5 Fritter Recipes to Try</h2>
-      <ol>
-        <li><a href="https://www.indianhealthyrecipes.com/pakora-recipe-vegetable-pakora-pakoda/" target="_blank">Vegetable Pakora</a></li>
-        <li><a href="https://www.indianhealthyrecipes.com/crispy-onion-pakoda-pakora-recipe/" target="_blank">Crispy Onion Pakoda</a></li>
-        <li><a href="https://www.teaforturmeric.com/pakora/" target="_blank">Classic Pakora</a></li>
-        <li><a href="https://www.vahrehvah.com/pakora-pakoda" target="_blank">Chef Vah's Pakora</a></li>
-        <li><a href="https://www.spicingyourlife.com/maida-pakoda-maida-onion-pakoda-nor/" target="_blank">Maida Pakoda</a></li>
+      <h2 class="text-2xl font-semibold text-green-600">🍽️ Top 5 Fritter Recipes to Try</h2>
+      <ol class="list-decimal list-inside mt-2">
+        <li><a class="text-blue-500 hover:underline" href="https://www.indianhealthyrecipes.com/pakora-recipe-vegetable-pakora-pakoda/" target="_blank">Vegetable Pakora</a></li>
+        <li><a class="text-blue-500 hover:underline" href="https://www.indianhealthyrecipes.com/crispy-onion-pakoda-pakora-recipe/" target="_blank">Crispy Onion Pakoda</a></li>
+        <li><a class="text-blue-500 hover:underline" href="https://www.teaforturmeric.com/pakora/" target="_blank">Classic Pakora</a></li>
+        <li><a class="text-blue-500 hover:underline" href="https://www.vahrehvah.com/pakora-pakoda" target="_blank">Chef Vah's Pakora</a></li>
+        <li><a class="text-blue-500 hover:underline" href="https://www.spicingyourlife.com/maida-pakoda-maida-onion-pakoda-nor/" target="_blank">Maida Pakoda</a></li>
       </ol>
     </section>
   </main>
 
-  <footer>
+  <footer class="bg-green-500 text-white text-center py-4">
     <p>&copy; 2025 - Potato Fritters Fan Club | Designed with ❤️ by Shagun Jain</p>
   </footer>
 </body>
